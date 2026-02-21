@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Daskap chat interface for community-focused conversational AI insights."
+    />
+    <title>Daskap Chat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand__dot"></span>
+          <span>Daskap</span>
+        </div>
+
+        <button id="newChatButton" class="new-chat-button" type="button">+ New chat</button>
+
+        <p class="sidebar__hint">
+          Between fragmented expression and shared understanding, between alienation and belonging.
+        </p>
+      </aside>
+
+      <main class="chat-layout">
+        <header class="chat-header">
+          <h1>Daskap Assistant</h1>
+          <p>It uses AI not to replace human connection, but to restore it.</p>
+        </header>
+
+        <section id="chatMessages" class="chat-messages" aria-live="polite">
+          <article class="message message--assistant">
+            <div class="message__avatar">D</div>
+            <div class="message__content">
+              Hey! I’m ready to help. Ask me anything about feedback trends, personas, or action steps.
+            </div>
+          </article>
+        </section>
+
+        <form id="chatForm" class="chat-input-wrap">
+          <label for="messageInput" class="sr-only">Message</label>
+          <textarea
+            id="messageInput"
+            name="message"
+            rows="1"
+            placeholder="Message Daskap..."
+            required
+          ></textarea>
+          <button id="sendButton" type="submit">Send</button>
+        </form>
+
+        <p class="footnote">
+          <strong>Daskap</strong> — giving communities the tools to truly hear themselves.
+        </p>
+      </main>
+    </div>
+
+    <template id="messageTemplate">
+      <article class="message">
+        <div class="message__avatar"></div>
+        <div class="message__content"></div>
+      </article>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

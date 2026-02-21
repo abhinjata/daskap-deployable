@@ -112,6 +112,35 @@ Extracted Suggestions:
 
 ---
 
+
+## Front-end (ChatGPT-style web UI)
+
+A sleek, minimal web interface is available in `frontend/` and is ready to deploy as a static site.
+
+### Run locally
+
+```bash
+cd frontend
+python3 -m http.server 4173
+```
+
+Then open `http://localhost:4173`.
+
+### Connect it to your bot
+
+Set `API_URL` in `frontend/app.js` to your local backend endpoint (default is `http://localhost:8000/chat`).
+
+Expected backend response JSON:
+
+```json
+{
+  "reply": "..."
+}
+```
+
+(Also accepts `response` as a fallback key.)
+
+---
 ## Contributing
 
 1. Fork the repo.
