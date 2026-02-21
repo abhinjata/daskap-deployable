@@ -1,0 +1,86 @@
+Name: Aryan K.
+Age: 19
+Persona Summary: Aryan is a second-year student who frequently attends club hackathons and workshops. He is driven by curiosity and wants to become a backend developer. He finds joy in building practical systems and learning from peers.
+
+Goals:
+
+Gain real-world project experience.
+
+Collaborate with seniors to improve Git and system design skills.
+
+Behavior:
+
+Very active in Discord discussions and technical sessions.
+
+Asks thoughtful questions and regularly helps juniors.
+
+Improvement Suggestion:
+
+“More structured mentorship programs for newcomers would help bridge the skill gap faster.”
+
+---
+
+Name: Neha S.
+Age: 21
+Persona Summary: Neha is a final-year student who doesn’t participate much but follows events closely. She values the club’s intellectual culture but prefers observing over contributing.
+
+Goals:
+
+Wants to see the club’s legacy grow even after graduation.
+
+Hopes her passive engagement helps encourage quieter students.
+
+Behavior:
+
+Rarely posts, but always reads updates.
+
+Responds only in direct DMs or anonymous feedback.
+
+Improvement Suggestion:
+
+“Maybe record the sessions for those who can’t attend live. Not everyone can speak up in real-time.”
+
+--- 
+
+Name: Tanmay R.
+Age: 20
+Persona Summary: Tanmay is passionate about creating a vibrant and inclusive tech space. He loves organizing events and tries to blend fun with learning — often runs games, quizzes, and meme challenges alongside study groups.
+
+Goals:
+
+Make Enigma a space for both coders and creators.
+
+Lead a large club project before graduating.
+
+Behavior:
+
+Engages people across branches, not just CS.
+
+Very active on Discord, Instagram, and cross-club collabs.
+
+Improvement Suggestion:
+
+“Let’s have a rotating spotlight for members and their work — give people credit and visibility!”
+
+---
+
+Name: Ishan R.
+Age: 18
+Persona Summary: Ishan is a first-year student deeply interested in theoretical computer science and AI ethics. He joined Enigma to meet like-minded peers who enjoy long, abstract discussions.
+
+Goals:
+
+Present a student talk on quantum algorithms or logic programming.
+
+Start a research study circle under the club banner.
+
+Behavior:
+
+Attends niche talks and frequently asks philosophical questions.
+
+Keeps a personal wiki of everything learned in club events.
+
+Improvement Suggestion:
+
+“The club can experiment with small reading groups — maybe 3–4 students per paper, rotating weekly.”
+
