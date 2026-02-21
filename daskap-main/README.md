@@ -112,6 +112,56 @@ Extracted Suggestions:
 
 ---
 
+
+## Front-end (ChatGPT-style web UI)
+
+A sleek, minimal web interface is available in `frontend/` and is ready to deploy as a static site.
+
+### Run locally
+
+1) Start the API backend:
+
+```bash
+pip install -r requirements.txt
+uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+2) In a second terminal, start the frontend:
+
+```bash
+cd frontend
+python3 -m http.server 4173
+```
+
+Then open `http://localhost:4173`.
+
+### Connect it to your bot
+
+By default, the frontend calls `http://localhost:8000/chat`. You can override this without code edits:
+
+```js
+localStorage.setItem("DASKAP_API_URL", "https://your-backend-domain/chat")
+location.reload()
+```
+
+Expected backend response JSON:
+
+```json
+{
+  "reply": "..."
+}
+```
+
+### Required environment variables (backend)
+
+Create a `.env` in `daskap-main/` with:
+
+```env
+GROQ_API_KEY=your_groq_key
+GROQ_MODEL=llama-3.3-70b-versatile
+```
+
+---
 ## Contributing
 
 1. Fork the repo.
